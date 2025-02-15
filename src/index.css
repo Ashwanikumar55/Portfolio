@@ -1,0 +1,210 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Caveat:wght@500&family=Charm:wght@700&family=DM+Serif+Text:ital@0;1&family=Dosis:wght@500;600&family=Lilita+One&family=Lobster&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,400;1,300&family=Rubik+Doodle+Shadow&family=Young+Serif&display=swap');
+*{
+  margin: 0px;
+  padding: 0px;
+}
+body{
+  background:linear-gradient(rgb(35, 38, 54),rgb(19, 1, 1));
+  color: white;
+  font-family: "Abril Fatface", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/*navbar section*/
+.icon i{
+color: #F29F58;
+font-size: 30px;
+}
+a{
+  text-decoration: none;
+  color:#F29F58;
+}
+
+.navbar{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  
+
+  }
+.nav_items{
+  padding: 10px;
+  font-size:25px;
+  font-weight: bold;
+}
+.nav_items:hover{
+color: rgb(86, 215, 66);
+border-bottom: 2px solid rgb(245, 232, 117);
+}
+/*Home section*/
+.home{
+  height:300px;
+  display: flex;
+  justify-content:space-between;
+  align-items:center;
+
+}
+.home .right .img{
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  /* background-color: yellow; */
+}
+
+.home .left{
+  background-color: black;
+  width: 650px;
+  text-align: center;
+  padding:10px;
+  border-radius: 10px;
+  border: 3px solid rgb(86, 204, 50);
+box-shadow: 5px 5px 15px 5px rgba(45, 250, 65, 0.992);
+}
+.home .right .img img{
+  width: 300px;
+  height: 300px;
+  border:5px solid rgb(153, 225, 247);
+  border-radius: 100%;
+  animation-name: ashwani;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  
+}
+
+@keyframes ashwani{
+    0%{ 
+    border-color: blue;
+    box-shadow: 10px 10px 100px 50px blue;
+    /* transform: rotate(90deg) */
+  }
+  25%{
+    /* transform:rotate(180deg); */
+    border-color: green;
+    box-shadow: 10px 10px 100px 50px  green;
+    transform: translate(25px,25px);
+  }
+  50%{
+    /* transform:rotate(270deg); */
+    border-color: rgb(62, 174, 205);
+    box-shadow: 10px 10px 100px 50px  rgb(63, 193, 205);
+  }  
+  100%{
+    /* transform:rotate(360deg); */
+    border-color: purple;
+    box-shadow: 10px 10px 100px 50px  purple;
+  }
+} 
+
+/*About Section*/
+.about{
+ padding: 10px;
+ color: rgb(15, 215, 68);
+}
+
+
+/* expeience section*/
+.exx{
+  width: 900px;
+  justify-content: center;
+  align-items: center;
+} 
+.ex-items{
+  display: flex;
+  background:linear-gradient(rgb(19, 1, 1),rgb(40, 192, 106));
+  /* background-color: rgb(0, 0, 0); */
+align-items: center;
+width: 800px;
+color: #FF8F00;
+margin: 30px;
+padding:30px;
+row-gap:50px;
+justify-content: center;
+/* margin-left: 200px; */
+border-radius: 10px;
+border: 2px solid rgba(45, 250, 65, 0.992);
+box-shadow: 5px 5px 15px 5px rgba(45, 250, 65, 0.992);
+animation-name: as;
+animation-duration: 1s;
+animation-timing-function: ease-in-out;
+animation-iteration-count:2;
+}  
+
+@keyframes as{
+0%{
+  transform: translate(0px);
+}
+100%{
+  transform: translate(200px);
+  /* justify-content: center;
+  align-items: center; */
+}
+}
+/* Skills Section */
+.sk{
+  /* width: 900px; */
+  color: rgb(243, 223, 223);
+}
+.sk .items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background-color: aqua; */
+  flex-wrap: wrap;
+  width: 800px;
+  /* margin: 10px; */
+}
+.sk .items .item{
+  width: 300px;
+  background:linear-gradient(rgb(19, 1, 1),rgb(40, 192, 106)); 
+  text-align: center;
+  margin: 15px;
+  border-radius: 10px;
+  color: black;
+  box-shadow: 5px 5px 15px 5px  rgba(45, 250, 65, 0.992);
+  /* margin-left: 50px; */
+}
+.sk .items .item img{
+ width: 100px;
+ justify-content: center;
+ align-items: center;
+ margin-top: 15px;
+ }
+ 
+ /* Contact Section*/
+ /* .contact{
+  justify-content: center;
+  align-items: center;
+ } */
+ .contact-icon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  /* gap: 50px;
+  width: 800px; */
+ }
+ .contact-icon .items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  margin: 10px;
+  background-color: rgb(16, 17, 17);
+  border-radius: 100%;
+  border: 2px solid rgb(0, 255, 81);
+  box-shadow: 5px 5px 15px 5px  rgba(45, 250, 65, 0.992);
+ }
+ .contact-icon .items .icons{
+   height: 30px;
+  width: 30px;
+color: rgb(15, 215, 68);
+  /* background-color: aqua; */
+  /* border: 2px solid yellow; */
+  /* border-radius: 10px; */
+ }
+ .contact-icon .items .icons:hover{
+  height: 50px;
+  width: 50px;
+ }

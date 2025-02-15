@@ -1,0 +1,28 @@
+[
+    {
+      "title": "HTML",
+      "image": "img/html.png"
+    },
+    {
+      "title": "CSS",
+      "image": "img/css.png"
+    },
+    {
+      "title": "JavaScript",
+      "image": "img/javascript.png"
+    },
+    {
+      "title": "React",
+      "image": "img/react.png"
+    },
+    {
+      "title": "Node",
+      "image": "img/node.png"
+    },
+    
+    {
+      "title": "MongoDB",
+      "image": "img/mongodb.png"
+    }
+   
+  ]

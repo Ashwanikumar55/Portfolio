@@ -1,0 +1,38 @@
+[
+    {
+        "id":"1",
+        "role":"Senior Software Development Engineer SDE-1",
+        "organisation":"Google",
+        "start":"april,2023",
+        "end":"current",
+        "location":"CA,UNITED State",
+        "experience":[
+            "worked on Google Gmail","Worked with the google bard team"
+        ],
+        "imageSrc":"company/google.png"
+    },
+    {
+        "id":"2",
+        "role":"Senior Software Development Engineer SDE-1",
+        "organisation":"Google",
+        "start":"april,2023",
+        "end":"current",
+        "location":"CA,UNITED State",
+        "experience":[
+            "worked on Google Gmail","Worked with the google bard team"
+        ],
+        "imageSrc":"company/google.png"
+    },
+    {
+        "id":"3",
+        "role":"Senior Software Development Engineer SDE-1",
+        "organisation":"Google",
+        "start":"april,2023",
+        "end":"current",
+        "location":"CA,UNITED State",
+        "experience":[
+            "worked on Google Gmail","Worked with the google bard team"
+        ],
+        "imageSrc":"company/google.png"
+    }
+]
