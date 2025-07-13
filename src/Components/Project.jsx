@@ -3,9 +3,9 @@ import projects from './data/projects.json'
 const Project = () => {
   return (
     <>
-    <div className="container project my-3" id='project'>
+    <div className="container project my-3 " id='project'>
         <h1 style={{color:'rgb(15, 215, 68)'}}>PROJECTS</h1>
-        <div className='row d-flex justify-content-center align-item-center'data-aos="flip-right" data-aos-duration="1000">
+        <div className='row d-flex justify-content-center align-item-center pr'data-aos="flip-right" data-aos-duration="1000">
         {
             projects.map((data)=>(
                 <>

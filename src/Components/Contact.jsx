@@ -10,7 +10,7 @@ const Contact = () => {
   <>
   <div className='container contact'data-aos="zoom-in-up" data-aos-duration="1000" id='contact'>
     <h1 style={{color:'rgb(15, 215, 68)'}}>Contact</h1>
-     <div className='container contact-icon'>
+     <div className='container contact-icon cont'>
         <a href='https://www.instagram.com/ashwani_gautam111/'className='items'>
             <BsInstagram  className='icons' />
         </a>

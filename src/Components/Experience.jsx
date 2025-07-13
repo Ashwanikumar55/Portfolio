@@ -19,8 +19,8 @@ const Experience = () => {
             <div className='right '>
              <h2>{data.role}</h2>
              <h4>{data.start} {data.enddate} {data.location}</h4>
-             <h5>{data.experience[0]}</h5>
-             <h5>{data.experience[1]}</h5>
+             {<h5>{data.experience[0]}</h5> }
+             {<h5>{data.experience[1]}</h5> }
             </div>
           </div>
           </>

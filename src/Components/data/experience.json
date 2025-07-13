@@ -1,38 +1,37 @@
 [
     {
         "id":"1",
-        "role":"Senior Software Development Engineer SDE-1",
-        "organisation":"Google",
-        "start":"april,2023",
-        "end":"current",
-        "location":"CA,UNITED State",
+        "role":"I AM STUDENT OF ALMABETTER",
+        "organisation":"ONLINE PLATEFORM",
+        "start":"I START IN FEB-2024",
+        "end":"END IN JULY-2025",
+        "location":"",
         "experience":[
-            "worked on Google Gmail","Worked with the google bard team"
-        ],
-        "imageSrc":"company/google.png"
+            "END IN JULY-2025"," BENGLURU"
+        ]
     },
     {
         "id":"2",
-        "role":"Senior Software Development Engineer SDE-1",
-        "organisation":"Google",
-        "start":"april,2023",
-        "end":"current",
-        "location":"CA,UNITED State",
+        "role":"FRONTEND AND BACKEND DEVELOPER",
+        "organisation":"",
+        "start":"1-6 PROJECTS",
+        "end":"",
+        "location":"",
         "experience":[
-            "worked on Google Gmail","Worked with the google bard team"
+            "1-JAVASCRIPT","2-DSA"
         ],
         "imageSrc":"company/google.png"
     },
     {
         "id":"3",
-        "role":"Senior Software Development Engineer SDE-1",
-        "organisation":"Google",
-        "start":"april,2023",
-        "end":"current",
-        "location":"CA,UNITED State",
+        "role":"3-FROENTEND PROJECT",
+        "organisation":"2-DSA",
+        "start":"4-BACKEND PROJECT",
+        "end":"",
+        "location":"5-FULLSTACK PROJECT",
         "experience":[
-            "worked on Google Gmail","Worked with the google bard team"
+            "I COMPLETED SOME PROJECTS","LIKE JAVASCRIPT,PORTFOLIO, CALCULATOR,SOME PAGES"
         ],
-        "imageSrc":"company/google.png"
+        "imageSrc":"4-"
     }
 ]
